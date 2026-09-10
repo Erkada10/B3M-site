@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ВЗБ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+  <div class="login-box">
+    <h1>ВЗБ</h1>
+    <div class="login-sub">Введите пароль админа</div>
+    <input type="password" id="pwd" placeholder="Пароль" autocomplete="off">
+    <button id="loginBtn">Войти</button>
+    <div class="lerr" id="lerr"></div>
+  </div>
+</div>
+
+<div id="app">
+  <div class="header">
+    <div class="header-inner">
+      <span class="logo">ВЗБ</span>
+      <span class="status-text" id="status"></span>
+      <button class="btn-link" id="outBtn">Выход</button>
+    </div>
+  </div>
+  <div class="layout">
+    <div class="sidebar" id="sidebar"></div>
+    <div class="content" id="content"></div>
+  </div>
+  <div class="apanel" id="apanel">
+    <span class="ainfo">АДМИН</span>
+    <button class="btn" id="newBtn">+ Страница</button>
+    <button class="btn" id="editBtn">Редактировать</button>
+    <button class="btn btn-d" id="delBtn">Удалить</button>
+    <button class="btn" id="addNewsBtn">+ Новость</button>
+    <button class="btn" id="pubBtn">Видные зрителям</button>
+    <button class="btn btn-s" id="copyBtn">Скопировать код</button>
+  </div>
+</div>
+
+<div id="modal-root"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
